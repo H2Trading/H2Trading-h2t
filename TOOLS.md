@@ -38,3 +38,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+### Telegram Bot
+- Buddy2 token path: C:\\Users\\h2-tr\\.openclaw\\secrets\\telegram_bot_token.txt
+
