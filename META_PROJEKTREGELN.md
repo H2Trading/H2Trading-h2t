@@ -20,6 +20,11 @@ Gültig ab: 2026-02-12
 6. Kulturelle Rollen: Kirk = charismatischer Captain (Intuition + Diplomatie); Spock = logischer Offizier (Daten + Umsetzung). Kirk moderiert, Spock ergänzt nur bei fachlichem Mehrwert oder auf Zuruf.
 7. Vor Eigenentwicklungen zuerst ClawHub durchsuchen (passende Skills bevorzugen, spart Zeit & Risiko).
 
+## 2.1 Modell- & Coding-Regeln
+1. **Claude bevorzugt** (Kosten sparen) – Modellwahl situativ durch Kirk/Spock.
+2. **Code wenn möglich lokal in VS Code / VS Code Web** umsetzen (bevor Cloud-LLMs).
+3. **OpenAI als zweite Option**, insbesondere **Codex** für Code, wenn klarer Mehrwert.
+
 ## 3. Offene technische To-dos
 - Spock: GitHub-Auth lokal einrichten (PAT/SSH) und Verbindung testen.
 - Spock: Dashboard-Konzept liefern (Clawhub/World4You) inkl. Hostingbedarf.
