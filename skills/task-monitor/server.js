@@ -177,7 +177,7 @@ app.get('/', (req, res) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🤖 Task Monitor</title>
+  <title>🚀 Enterprise Mission Control</title>
   <style>
     * {
       margin: 0;
@@ -316,7 +316,7 @@ app.get('/', (req, res) => {
 <body>
   <div class="container">
     <header>
-      <h1>🤖 OpenClaw Task Monitor</h1>
+      <h1>🚀 Enterprise Mission Control</h1>
       <div class="timestamp" id="timestamp">Loading...</div>
     </header>
     
@@ -339,7 +339,7 @@ app.get('/', (req, res) => {
 
     function renderDashboard(data) {
       const timestamp = new Date(data.timestamp).toLocaleString();
-      let statusText = 'Last updated: ' + timestamp;
+      let statusText = 'Letztes Update: ' + timestamp;
       if (data.cached) {
         statusText += ' (cached: ' + data.cacheAge + 's ago';
         if (data.refreshing) {
@@ -356,9 +356,9 @@ app.get('/', (req, res) => {
         const age = formatAge(data.main.ageMs);
         html += \`
           <div class="card">
-            <h2>💻 Main Session</h2>
+            <h2>🖥️ Command Bridge</h2>
             <div class="stat">
-              <div class="stat-label">Model</div>
+              <div class="stat-label">Modell</div>
               <div class="stat-value">\${data.main.model}</div>
             </div>
             <div class="stat">
@@ -366,7 +366,7 @@ app.get('/', (req, res) => {
               <div class="stat-value">\${(data.main.totalTokens / 1000).toFixed(1)}k / \${(data.main.contextTokens / 1000).toFixed(0)}k</div>
             </div>
             <div class="stat">
-              <div class="stat-label">Age</div>
+              <div class="stat-label">Laufzeit</div>
               <div class="stat-value">\${age}</div>
             </div>
           </div>
@@ -378,9 +378,9 @@ app.get('/', (req, res) => {
         const age = formatAge(data.discord.ageMs);
         html += \`
           <div class="card">
-            <h2>💬 Discord Session</h2>
+            <h2>📡 Comms (Discord)</h2>
             <div class="stat">
-              <div class="stat-label">Model</div>
+              <div class="stat-label">Modell</div>
               <div class="stat-value">\${data.discord.model}</div>
             </div>
             <div class="stat">
@@ -388,7 +388,7 @@ app.get('/', (req, res) => {
               <div class="stat-value">\${(data.discord.totalTokens / 1000).toFixed(1)}k / \${(data.discord.contextTokens / 1000).toFixed(0)}k</div>
             </div>
             <div class="stat">
-              <div class="stat-label">Age</div>
+              <div class="stat-label">Laufzeit</div>
               <div class="stat-value">\${age}</div>
             </div>
           </div>
@@ -398,17 +398,17 @@ app.get('/', (req, res) => {
       // Summary Card
       html += \`
         <div class="card">
-          <h2>📊 Summary</h2>
+          <h2>📊 Lageübersicht</h2>
           <div class="stat">
-            <div class="stat-label">Total Sessions</div>
+            <div class="stat-label">Sessions gesamt</div>
             <div class="stat-value">\${data.totalSessions}</div>
           </div>
           <div class="stat">
-            <div class="stat-label">Active Tasks</div>
+            <div class="stat-label">Aktive Missionen</div>
             <div class="stat-value">\${data.subagents.length}</div>
           </div>
           <div class="stat">
-            <div class="stat-label">Recent Crons</div>
+            <div class="stat-label">Automationen (Cron)</div>
             <div class="stat-value">\${data.recentCrons.length}</div>
           </div>
         </div>
@@ -418,52 +418,52 @@ app.get('/', (req, res) => {
 
       // Background Tasks
       html += '<div class="card">';
-      html += '<h2>🛠️ Background Tasks</h2>';
+      html += '<h2>🛠️ Away Missions</h2>';
       if (data.subagents.length > 0) {
         data.subagents.forEach(task => {
           const age = formatAge(task.ageMs);
           const status = task.abortedLastRun ? 
-            '<span class="badge badge-error">Aborted</span>' : 
-            '<span class="badge badge-success">Running</span>';
+            '<span class="badge badge-error">Abgebrochen</span>' : 
+            '<span class="badge badge-success">Läuft</span>';
           html += \`
             <div class="task-item">
-              <div><strong>Task \${task.sessionId.substring(0, 8)}</strong> \${status}</div>
+              <div><strong>Mission \${task.sessionId.substring(0, 8)}</strong> \${status}</div>
               <div class="task-desc">\${task.description}</div>
               <div class="task-meta">
-                <span>Model: \${task.model}</span>
-                <span>Age: \${age}</span>
+                <span>Modell: \${task.model}</span>
+                <span>Laufzeit: \${age}</span>
                 <span>Tokens: \${task.totalTokens}</span>
               </div>
             </div>
           \`;
         });
       } else {
-        html += '<div class="empty">No active background tasks</div>';
+        html += '<div class="empty">Keine aktiven Missionen</div>';
       }
       html += '</div>';
 
-      // Recent Cron Jobs
+      // Automated Operations (Cron)
       html += '<div class="card">';
-      html += '<h2>🕒 Recent Cron Jobs</h2>';
+      html += '<h2>🕒 Automated Operations</h2>';
       if (data.recentCrons.length > 0) {
         data.recentCrons.forEach(cron => {
           const lastRun = new Date(cron.updatedAt).toLocaleString();
           const status = cron.abortedLastRun ? 
-            '<span class="badge badge-error">Error</span>' : 
+            '<span class="badge badge-error">Fehler</span>' : 
             '<span class="badge badge-success">OK</span>';
           const jobName = cron.name || 'Unknown Job';
           html += \`
             <div class="task-item">
               <div><strong>\${jobName}</strong> \${status}</div>
               <div class="task-meta">
-                <span>Last run: \${lastRun}</span>
-                <span>Model: \${cron.model}</span>
+                <span>Letzter Lauf: \${lastRun}</span>
+                <span>Modell: \${cron.model}</span>
               </div>
             </div>
           \`;
         });
       } else {
-        html += '<div class="empty">No recent cron jobs</div>';
+        html += '<div class="empty">Keine aktuellen Automationen</div>';
       }
       html += '</div>';
 
