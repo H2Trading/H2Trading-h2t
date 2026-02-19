@@ -3,7 +3,7 @@
 ## Zweck dieses Dokuments
 
 Dieses Dokument definiert den verbindlichen Asset-Intake-Standard
-der H² Trading GmbH.
+der H2 Trading GmbH.
 
 Es dient der strukturierten Erfassung, technischen Einordnung
 und internen Bewertung von Assets und ist die

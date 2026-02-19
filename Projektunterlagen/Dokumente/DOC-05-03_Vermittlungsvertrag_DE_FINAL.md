@@ -8,7 +8,7 @@
 [UID / Firmenbuchnummer]
 
 **Vermittler:**  
-H² Trading GmbH  
+H2 Trading GmbH  
 [Adresse]  
 [UID / Firmenbuchnummer]
 
@@ -116,5 +116,5 @@ Ort, Datum: ___________________________
 **Verkäufer:**  
 Unterschrift: ___________________________
 
-**Vermittler (H² Trading GmbH):**  
+**Vermittler (H2 Trading GmbH):**  
 Unterschrift: ___________________________

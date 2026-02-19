@@ -1,5 +1,5 @@
 ---
-Projekt: H² Trading GmbH
+Projekt: H2 Trading GmbH
 Dokument: META – Zusammenarbeitsregeln Kirk & Spock
 Version: v1.1
 Status: gültig

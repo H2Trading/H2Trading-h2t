@@ -4,7 +4,7 @@ Assetklasse: Saug- und Spülfahrzeug (Kombinationsfahrzeug auf LKW-Basis)
 ## Zweck dieses Dokuments
 
 Dieses Dokument definiert den verbindlichen Asset-Intake-Standard
-der H² Trading GmbH für Assets der Klasse
+der H2 Trading GmbH für Assets der Klasse
 „Saug- und Spülfahrzeuge auf LKW-Basis“.
 
 Es dient der strukturierten, manuellen Erfassung von Assets,
