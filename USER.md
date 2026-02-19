@@ -2,11 +2,12 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:**
-- **What to call them:**
+- **Name:** Stephan
+- **What to call them:** Stephan
 - **Pronouns:** _(optional)_
-- **Timezone:**
+- **Timezone:** Europe/Vienna
 - **Notes:**
+  - Telegram PM target: telegram:8055378737 (user_id 8055378737)
 
 ## Context
 
