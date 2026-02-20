@@ -24,6 +24,13 @@ Du darfst **keine** Dateien/Kommandos erzeugen oder ändern, die Secrets enthalt
 
 Auch **kein** `echo TOKEN=…` oder ähnliche Workarounds.
 
+### Ausnahme: Git Operations
+Für `git push` darfst du den Token **aus** `/data/.openclaw/secrets/token_github.txt` lesen und in der Remote-URL verwenden:
+```bash
+TOKEN=$(cat /data/.openclaw/secrets/token_github.txt) && git push https://$TOKEN@github.com/...
+```
+**Wichtig:** Token wird **nicht** in Chat/Logs ausgegeben, nur in der Command-Execution verwendet.
+
 ---
 
 ## STOP: Keine Ausgabe von Secrets
