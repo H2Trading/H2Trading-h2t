@@ -20,7 +20,7 @@
       "path": "abmessungen_gewichte.zulaessiges_gesamtgewicht_kg",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "kg",
       "label": "Abmessungen Gewichte Zulaessiges Gesamtgewicht Kg",
       "question": "Bitte Angabe ergänzen/bestätigen: Abmessungen Gewichte Zulaessiges Gesamtgewicht Kg. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -28,7 +28,7 @@
       "path": "elektrik_bordnetz.batterie_spannung_v",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "DN",
       "label": "Elektrik Bordnetz Batterie Spannung V",
       "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Batterie Spannung V. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -36,7 +36,7 @@
       "path": "traegerfahrzeug.achskonfiguration.typ",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Achskonfiguration Typ",
       "question": "Bitte Angabe ergänzen/bestätigen: Achskonfiguration Typ. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -44,7 +44,7 @@
       "path": "traegerfahrzeug.antrieb.energiequelle",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Antrieb Energiequelle",
       "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Energiequelle. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -52,7 +52,7 @@
       "path": "traegerfahrzeug.antrieb.leistung_kw",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Antrieb Leistung Kw",
       "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Leistung Kw. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -60,7 +60,7 @@
       "path": "traegerfahrzeug.antrieb.leistung_ps",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Antrieb Leistung Ps",
       "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Leistung Ps. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -68,7 +68,7 @@
       "path": "traegerfahrzeug.antrieb.max_drehmoment_nm",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Antrieb Max Drehmoment Nm",
       "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Max Drehmoment Nm. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -76,7 +76,7 @@
       "path": "traegerfahrzeug.antrieb.motortyp",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Antrieb Motortyp",
       "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Motortyp. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -84,7 +84,7 @@
       "path": "traegerfahrzeug.antrieb.nennspannung_v",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Antrieb Nennspannung V",
       "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Nennspannung V. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -92,7 +92,7 @@
       "path": "traegerfahrzeug.antrieb.spitzenleistung_kw",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Antrieb Spitzenleistung Kw",
       "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Spitzenleistung Kw. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -100,7 +100,7 @@
       "path": "traegerfahrzeug.fahrwerk.bereifung_hinterachse",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Fahrwerk Bereifung Hinterachse",
       "question": "Bitte Angabe ergänzen/bestätigen: Fahrwerk Bereifung Hinterachse. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -108,7 +108,7 @@
       "path": "traegerfahrzeug.fahrwerk.bereifung_vorderachse",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Fahrwerk Bereifung Vorderachse",
       "question": "Bitte Angabe ergänzen/bestätigen: Fahrwerk Bereifung Vorderachse. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -116,7 +116,7 @@
       "path": "traegerfahrzeug.federung.hinterachse",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Federung Hinterachse",
       "question": "Bitte Angabe ergänzen/bestätigen: Federung Hinterachse. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -124,7 +124,7 @@
       "path": "traegerfahrzeug.federung.vorderachse",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Federung Vorderachse",
       "question": "Bitte Angabe ergänzen/bestätigen: Federung Vorderachse. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -132,7 +132,7 @@
       "path": "traegerfahrzeug.hersteller",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Traegerfahrzeug Hersteller",
       "question": "Bitte Angabe ergänzen/bestätigen: Traegerfahrzeug Hersteller. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -140,7 +140,7 @@
       "path": "traegerfahrzeug.modell",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Traegerfahrzeug Modell",
       "question": "Bitte Angabe ergänzen/bestätigen: Traegerfahrzeug Modell. (Falls nicht relevant/nicht vorhanden: N/A)"
     }

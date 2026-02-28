@@ -28,7 +28,7 @@
       "path": "traegerfahrzeug.hersteller",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Traegerfahrzeug Hersteller",
       "question": "Bitte Angabe ergänzen/bestätigen: Traegerfahrzeug Hersteller. (Falls nicht relevant/nicht vorhanden: N/A)"
     },
@@ -36,7 +36,7 @@
       "path": "traegerfahrzeug.modell",
       "minPresence": 1,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Traegerfahrzeug Modell",
       "question": "Bitte Angabe ergänzen/bestätigen: Traegerfahrzeug Modell. (Falls nicht relevant/nicht vorhanden: N/A)"
     }

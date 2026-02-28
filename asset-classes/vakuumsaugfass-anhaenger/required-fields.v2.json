@@ -28,7 +28,7 @@
       "path": "traegerfahrzeug.fahrwerk.kotfluegel",
       "minPresence": 0.8,
       "allow_na": true,
-      "unit": null,
+      "unit": "Ah",
       "label": "Fahrwerk Kotfluegel",
       "question": "Bitte Angabe ergänzen/bestätigen: Fahrwerk Kotfluegel. (Falls nicht relevant/nicht vorhanden: N/A)"
     }
