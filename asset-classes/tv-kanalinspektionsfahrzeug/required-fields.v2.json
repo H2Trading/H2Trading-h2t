@@ -1,0 +1,301 @@
+{
+  "schema": "h2t.required-fields.v2",
+  "version": "v0.2",
+  "class": "tv-kanalinspektionsfahrzeug",
+  "category": "TV-Kanalinspektionsfahrzeug",
+  "derivedAt": "2026-02-28T20:44:46.400Z",
+  "threshold": 0.75,
+  "assetCount": 1,
+  "rules": {
+    "hardCanBeNA": true,
+    "naValues": [
+      "N/A",
+      "nicht relevant",
+      "nicht vorhanden"
+    ],
+    "note": "Promoted from derived-75pct proposal. Review and refine questions/units before using in DOC generators."
+  },
+  "required_hard": [
+    {
+      "path": "abmessungen_gewichte.gesamtgewicht_zulaessig_kg",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Abmessungen Gewichte Gesamtgewicht Zulaessig Kg",
+      "question": "Bitte Angabe ergänzen/bestätigen: Abmessungen Gewichte Gesamtgewicht Zulaessig Kg. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "abmessungen_gewichte.radstand_mm",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Abmessungen Gewichte Radstand Mm",
+      "question": "Bitte Angabe ergänzen/bestätigen: Abmessungen Gewichte Radstand Mm. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "arbeitsausstattung_zubehoer.hecktuer_oeffnungswinkel_grad",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Arbeitsausstattung Zubehoer Hecktuer Oeffnungswinkel Grad",
+      "question": "Bitte Angabe ergänzen/bestätigen: Arbeitsausstattung Zubehoer Hecktuer Oeffnungswinkel Grad. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "arbeitsausstattung_zubehoer.laderaumtrennwand",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Arbeitsausstattung Zubehoer Laderaumtrennwand",
+      "question": "Bitte Angabe ergänzen/bestätigen: Arbeitsausstattung Zubehoer Laderaumtrennwand. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "arbeitsausstattung_zubehoer.reserverad_typ",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Arbeitsausstattung Zubehoer Reserverad Typ",
+      "question": "Bitte Angabe ergänzen/bestätigen: Arbeitsausstattung Zubehoer Reserverad Typ. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "arbeitsausstattung_zubehoer.reserveradhalter_position",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Arbeitsausstattung Zubehoer Reserveradhalter Position",
+      "question": "Bitte Angabe ergänzen/bestätigen: Arbeitsausstattung Zubehoer Reserveradhalter Position. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "arbeitsausstattung_zubehoer.schiebetuer_rechts",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Arbeitsausstattung Zubehoer Schiebetuer Rechts",
+      "question": "Bitte Angabe ergänzen/bestätigen: Arbeitsausstattung Zubehoer Schiebetuer Rechts. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "arbeitsausstattung_zubehoer.verzurroesen_laderaum",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Arbeitsausstattung Zubehoer Verzurroesen Laderaum",
+      "question": "Bitte Angabe ergänzen/bestätigen: Arbeitsausstattung Zubehoer Verzurroesen Laderaum. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "arbeitsausstattung_zubehoer.wagenheber",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Arbeitsausstattung Zubehoer Wagenheber",
+      "question": "Bitte Angabe ergänzen/bestätigen: Arbeitsausstattung Zubehoer Wagenheber. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.anzeige_waschwasserstand",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Anzeige Waschwasserstand",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Anzeige Waschwasserstand. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.aussenspiegel_blinkleuchte_integriert",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Aussenspiegel Blinkleuchte Integriert",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Aussenspiegel Blinkleuchte Integriert. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.aussenspiegel_elektrisch_verstellbar",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Aussenspiegel Elektrisch Verstellbar",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Aussenspiegel Elektrisch Verstellbar. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.aussenspiegel_heizbar",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Aussenspiegel Heizbar",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Aussenspiegel Heizbar. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.batterie_ah",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Batterie Ah",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Batterie Ah. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.bremsleuchte_dritte",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Bremsleuchte Dritte",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Bremsleuchte Dritte. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.leuchtweitenregelung",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Leuchtweitenregelung",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Leuchtweitenregelung. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.rundumkennleuchten_anzahl",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Rundumkennleuchten Anzahl",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Rundumkennleuchten Anzahl. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "elektrik_bordnetz.verglasung_waermeschutz",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Elektrik Bordnetz Verglasung Waermeschutz",
+      "question": "Bitte Angabe ergänzen/bestätigen: Elektrik Bordnetz Verglasung Waermeschutz. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "fahrerhaus_komfort.dachverkleidung",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Fahrerhaus Komfort Dachverkleidung",
+      "question": "Bitte Angabe ergänzen/bestätigen: Fahrerhaus Komfort Dachverkleidung. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "fahrerhaus_komfort.handschuhfach_abschliessbar",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Fahrerhaus Komfort Handschuhfach Abschliessbar",
+      "question": "Bitte Angabe ergänzen/bestätigen: Fahrerhaus Komfort Handschuhfach Abschliessbar. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "fahrerhaus_komfort.sitze_beifahrer",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Fahrerhaus Komfort Sitze Beifahrer",
+      "question": "Bitte Angabe ergänzen/bestätigen: Fahrerhaus Komfort Sitze Beifahrer. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "fahrerhaus_komfort.sitze_fahrer",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Fahrerhaus Komfort Sitze Fahrer",
+      "question": "Bitte Angabe ergänzen/bestätigen: Fahrerhaus Komfort Sitze Fahrer. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "fahrerhaus_komfort.zusatzheizung_luft_elektrisch",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Fahrerhaus Komfort Zusatzheizung Luft Elektrisch",
+      "question": "Bitte Angabe ergänzen/bestätigen: Fahrerhaus Komfort Zusatzheizung Luft Elektrisch. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.emission",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Antrieb Emission",
+      "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Emission. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.kraftstofftank_l",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Antrieb Kraftstofftank L",
+      "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Kraftstofftank L. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.motor_kw",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Antrieb Motor Kw",
+      "question": "Bitte Angabe ergänzen/bestätigen: Antrieb Motor Kw. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.bremsen.bremsassistent",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Bremsen Bremsassistent",
+      "question": "Bitte Angabe ergänzen/bestätigen: Bremsen Bremsassistent. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.fahrwerk.felgen_vorderachse",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Fahrwerk Felgen Vorderachse",
+      "question": "Bitte Angabe ergänzen/bestätigen: Fahrwerk Felgen Vorderachse. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.federung.stabilisator_hinten",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Federung Stabilisator Hinten",
+      "question": "Bitte Angabe ergänzen/bestätigen: Federung Stabilisator Hinten. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.federung.stabilisator_vorn_verstaerkt",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Federung Stabilisator Vorn Verstaerkt",
+      "question": "Bitte Angabe ergänzen/bestätigen: Federung Stabilisator Vorn Verstaerkt. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.federung.stossdaempfer_verstaerkt",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Federung Stossdaempfer Verstaerkt",
+      "question": "Bitte Angabe ergänzen/bestätigen: Federung Stossdaempfer Verstaerkt. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.hersteller",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Traegerfahrzeug Hersteller",
+      "question": "Bitte Angabe ergänzen/bestätigen: Traegerfahrzeug Hersteller. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.modell",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Traegerfahrzeug Modell",
+      "question": "Bitte Angabe ergänzen/bestätigen: Traegerfahrzeug Modell. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.sicherheit.airbag_fahrerseite",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Sicherheit Airbag Fahrerseite",
+      "question": "Bitte Angabe ergänzen/bestätigen: Sicherheit Airbag Fahrerseite. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.sicherheit.kindersicherung",
+      "minPresence": 1,
+      "allow_na": true,
+      "unit": null,
+      "label": "Sicherheit Kindersicherung",
+      "question": "Bitte Angabe ergänzen/bestätigen: Sicherheit Kindersicherung. (Falls nicht relevant/nicht vorhanden: N/A)"
+    }
+  ],
+  "required_soft": []
+}

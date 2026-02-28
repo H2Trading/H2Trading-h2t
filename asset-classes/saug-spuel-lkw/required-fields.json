@@ -1,0 +1,7 @@
+{
+  "class": "saug-spuel-lkw",
+  "version": "v0.1",
+  "source": "Projektunterlagen/Dokumente/DOC-10-00_Saug-Spuel-LKW_MASTER_DE.md",
+  "requiredFields": [],
+  "notes": "TODO: derive required fields from A4 module and map to canonical spec taxonomy"
+}
