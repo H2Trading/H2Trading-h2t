@@ -1,20 +1,18 @@
-# DOC-10-00 – Master Asset-Intake (DRAFT)
+# DOC-10-00 – Master Asset-Intake
 Assetklasse: ADR-Kombi
 
 ## Status
 
-⚠️ **DRAFT** – Automatisch generiert basierend auf 15 erkannten Assets.
+**Version:** v0.2  
+**Status:** MASTER (in Entwicklung)  
+**Letzte Änderung:** 2026-02-28  
+**Basis:** Asset H2T-ASSET-2026-001 (detaillierte Struktur)
 
 **Beschreibung:** Kombinationsfahrzeug mit Saug- und Spülfunktion (ADR-zertifiziert)
 
-**Nächste Schritte:**
-1. Technische Felder prüfen & anpassen (A4-Modul)
-2. Spezifische Anforderungen ergänzen
-3. Bildanforderungen finalisieren
-4. Review & Freigabe → MASTER
-
-**Generiert:** 2026-02-28  
-**Basis-Assets:** KRE-549, KRE-398, KRE-401, KRE-511, KRE-442, KRE-425, KRE-348, KRE-278, KRE-345, KRE-367, KRE-395, KRE-396, KRE-373, KRE-338, KRE-384
+**Entwicklungshinweis:**  
+Master-Templates entwickeln sich während des Projekts kontinuierlich weiter,
+wenn neue Details oder Anforderungen erkannt werden.
 
 ---
 
@@ -35,12 +33,18 @@ Das Dokument wird inkrementell weiterentwickelt.
 ## A1 – Asset-Identifikation
 
 **Interne Asset-ID:**  
-[H2T-YYYY-NNN]
+[H2T-ASSET-YYYY-NNN]
 
 **Asset-Typ:**  
 ADR-Kombi
 
-**Handelsbezeichnung / Modellname:**  
+**Hersteller / Modell (Trägerfahrzeug):**  
+___
+
+**Achskonfiguration:**  
+___ (z.B. 6×2, 8×4)
+
+**Aufbau / System:**  
 ___
 
 ---
@@ -78,7 +82,9 @@ ___
 ☐ Defekt / nur Ersatzteile  
 
 **Betriebsstunden / Kilometerstand:**  
-___ Stunden / ___ km
+Fahrzeug: ___ km  
+Sauganlage: ___ Stunden  
+Hochdruckanlage: ___ Stunden
 
 **Erstzulassung / Baujahr:**  
 ___
@@ -86,54 +92,368 @@ ___
 **Letzte Hauptuntersuchung:**  
 ___ (gültig bis: ___)
 
+**Einschätzung / Anmerkungen:**  
+___
+
 ---
 
 ## A4 – Technische Daten  
-(Modul A4-V1 – ADR-Kombi)
+(Modul A4-V2 – ADR-Kombi)
 
 ### Trägerfahrzeug
-- Hersteller / Modell: ___
-- Motor: ___ (Leistung kW/PS, Euro-Norm)
-- Getriebe: ___ (manuell/automatisch, Gänge)
-- Achskonfiguration: ___ (z.B. 6x2, 8x4)
-- zGG: ___ kg
-- Radstand: ___ mm
 
-### Tank-/Medienlogik
-- Schmutzwassertank: ___ Liter
-- Frischwassertank: ___ Liter
-- Tank-Material: ___ (Stahl/Edelstahl/Kunststoff)
-- Trennsystem: ☐ Ja ☐ Nein
+**Hersteller / Modell:**  
+___
 
-### Sauganlage
-- Pumpen-Typ: ___ (Kolben/Vakuum/Seitenkanal)
-- Hersteller: ___
-- Saugleistung: ___ m³/h
-- Vakuum: ___ mbar
-- Antrieb: ___ (PTO/Hydraulik/Elektrisch)
+**Motor:**  
+Typ: ___  
+Leistung: ___ kW (___ PS)  
+Hubraum: ___ l  
+Bauart: ___ (z.B. V6 Diesel)
+
+**Getriebe:**  
+Typ: ___ (manuell / automatisch / halbautomatisch)  
+Gänge: ___  
+System: ___ (z.B. Telligent-Schaltung)
+
+**Abgasnorm:**  
+___ (z.B. Euro 3, Euro 4, Euro 5, Euro 6)
+
+**Achskonfiguration:**  
+___ (z.B. 6×2, 8×4)
+
+**Radstand:**  
+___ mm
+
+**Zulässiges Gesamtgewicht (zGG):**  
+___ kg
+
+**Kraftstofftank:**  
+___ l  
+Material: ___ (Stahl / Aluminium)  
+Position: ___ (links / rechts / mittig)
+
+**Fahrerhaus:**  
+Typ: ___ (S / M / L)  
+Lagerung: ___ (z.B. Schlechtwege-Ausführung)
+
+**Federung:**  
+Vorderachse: ___ (Blatt / Luft)  
+Hinterachse: ___ (Blatt / Luft)  
+System: ___ (z.B. Vollluft)
+
+**Achsen & Fahrwerk:**  
+Vorderachse: ___ (z.B. gekröpft, Tragkraft ___ t)  
+Hinterachse: ___ (z.B. Tellerrad 300, Tragkraft ___ t)  
+Differentialsperre: ☐ Vorderachse ☐ Hinterachse ☐ Keine
+
+**Bremsanlage:**  
+Vorderachse: ___ (Scheiben / Trommeln)  
+Hinterachse: ___ (Scheiben / Trommeln)  
+Motorbremse: ☐ Ja ☐ Nein  
+Konstantdrossel: ☐ Ja ☐ Nein
+
+**Sicherheit & Diebstahlschutz:**  
+Wegfahrsperre: ☐ Ja ☐ Nein  
+Getriebesperre: ☐ Ja ☐ Nein  
+Achslast-Messeinrichtung: ☐ Ja ☐ Nein
+
+**Nebenantrieb (PTO):**  
+Typ: ___  
+Hersteller: ___  
+Anschluss: ___ (z.B. flansch glatt)
+
+---
+
+### Aufbau / Tank / Wasserrecycling
+
+**Aufbauhersteller:**  
+___
+
+**Aufbau-Typ / Modell:**  
+___
+
+**Wasserrecycling:**  
+___ (z.B. 6,0 / 5,0 / 2,0 oder 10,0 / 6,5)
+
+**Behältergröße gesamt:**  
+___ l
+
+**Schmutzwassertank:**  
+___ l
+
+**Frischwassertank:**  
+___ l  
+Typ: ___ (z.B. Wassertaschen)
+
+**Schlammbehälter:**  
+Volumen: ___ l  
+Material: ___ (Stahl / Edelstahl / Kunststoff)
+
+**Hinweis Behältersystem:**  
+☐ Separate Volumina (Zwei-Behälter-System)  
+☐ Rechnerische Aufteilung Gesamtbehälter
+
+**Entleerung:**  
+___ (z.B. hydraulisches Ankippen ca. 45°, Schwerkraft, Pumpenentleerung)
+
+**Zusatzausstattung Tank:**  
+Füllstandsmessung: ☐ Ja ☐ Nein  
+Frostschutz / Heizung: ☐ Ja ☐ Nein  
+Trennwand / Kammern: ☐ Ja ☐ Nein
+
+---
+
+### Sauganlage / Vakuumsystem
+
+**Hersteller / Typ:**  
+___
+
+**Pumpentyp:**  
+___ (z.B. Kolben, Vakuum, Seitenkanal)
+
+**Saugleistung:**  
+___ m³/h
+
+**Vakuum:**  
+___ mbar
+
+**Antrieb:**  
+___ (PTO / Hydraulik / Elektrisch / Dieselmotor)
+
+**Saugschlauch:**  
+Länge: ___ m  
+Durchmesser: DN ___
+
+**Saugrohr:**  
+Durchmesser: DN ___  
+Ausstattung: ___ (z.B. mit Kanalfalter)
+
+**Ausleger:**  
+☐ Saug-Ausleger vorhanden  
+Typ: ___ (hydraulisch / manuell)
+
+**Betriebsstunden:**  
+ca. ___ Std.
+
+**Zusatzausstattung:**  
+Filter / Separator: ☐ Ja ☐ Nein  
+Schlauchlagerung: ___
+
+---
 
 ### Hochdruckanlage
-- Pumpen-Typ: ___
-- Hersteller: ___
-- Max. Druck: ___ bar
-- Durchfluss: ___ l/min
-- Antrieb: ___ (PTO/Hydraulik/Elektrisch)
 
-### Schlauchtrommel & Düsen
-- Schlauch-Typ: ___ (Hochdruck/Niederdruck)
-- Schlauchlänge: ___ m
-- Schlauch-Ø: ___ mm
-- Düsen-Set: ☐ Standard ☐ Erweitert ☐ Spezial
+**Hersteller / Typ:**  
+___
 
-### Steuerung & Bedienung
-- Bedienstand: ___ (Heck/Seite/Kabine)
-- Steuerung: ___ (manuell/elektronisch/Fernbedienung)
-- Kamera-System: ☐ Ja ☐ Nein
+**Pumpentyp:**  
+___
+
+**Leistung:**  
+___ l/min bei ___ bar
+
+**Max. Druck:**  
+___ bar
+
+**Durchfluss:**  
+___ l/min
+
+**Antrieb:**  
+___ (PTO / Hydraulik / Elektrisch / Dieselmotor)
+
+**Hochdruckschlauch:**  
+Länge: ___ m  
+Durchmesser: DN ___
+
+**Hydraulische Spülschlauchhaspel:**  
+Länge: ___ m  
+Durchmesser: DN ___
+
+**Ausleger:**  
+☐ Hochdruck-Ausleger vorhanden  
+Typ: ___ (hydraulisch / manuell)
+
+**Betriebsstunden:**  
+ca. ___ Std.
+
+**Zusatzausstattung:**  
+Düsen-Set: ☐ Standard ☐ Erweitert ☐ Spezial  
+Schlauchlagerung: ___
+
+---
+
+### Steuerung / Bedienung
+
+**Bedienstand:**  
+Position: ___ (Heck / Seite / Kabine)  
+Typ: ___ (analog / digital / Touchscreen)
+
+**Steuerung:**  
+___ (manuell / elektronisch / Fernbedienung)
+
+**Funkfernbedienung:**  
+☐ Ja ☐ Nein  
+Display: ☐ Ja ☐ Nein
+
+**Schaltbare Funktionen vom Bedienschrank:**  
+Motorstart: ☐ Ja ☐ Nein  
+Nebenantrieb-Start: ☐ Ja ☐ Nein
+
+**Kamera-System:**  
+☐ Rückfahrkamera  
+☐ 360°-Kamera  
+☐ Kanalrohrkamera  
+☐ Keine
+
+**Anzeigen / Instrumente:**  
+___
+
+**Zentralschmieranlage:**  
+☐ Ja ☐ Nein
+
+**Schallverkleidung Pumpenraum:**  
+☐ Ja ☐ Nein  
+Ausführung: ___ (z.B. hochgezogen)
+
+---
+
+### Anhänger- & Fahrassistenzsysteme
+
+**Anhängerkupplung:**  
+Typ: ___ (z.B. G 150)  
+☐ Ja ☐ Nein
+
+**Anhängerbremse:**  
+___ (z.B. 2-Leitung, EBS)
+
+**Anhängersteckdose:**  
+Spannung: ___ V  
+Polig: ___ (7 / 15)
+
+**Fahrassistenzsysteme:**  
+Anfahrhilfe: ☐ Ja ☐ Nein  
+Fernlichtassistent: ☐ Ja ☐ Nein  
+Spurhalteassistent: ☐ Ja ☐ Nein  
+Abstandstempomat: ☐ Ja ☐ Nein
+
+**Rückfahrassistenz:**  
+Rückfahrkamera: ☐ Ja ☐ Nein  
+Rückfahrwarner: ☐ Ja ☐ Nein
+
+---
+
+### Fahrerhaus & Komfort
+
+**Fahrersitz:**  
+Typ: ___ (z.B. Schwingsitz Komfort, Luftfederung)
+
+**Beifahrersitz / Mittelsitz:**  
+☐ Mittelsitz mit Sicherheitsgurt  
+☐ Beifahrersitz (Standard / Komfort)
+
+**Fensterheber:**  
+☐ Elektrisch links  
+☐ Elektrisch rechts  
+☐ Manuell
+
+**Klimatisierung:**  
+☐ Klimaanlage  
+☐ Standheizung  
+☐ Standklimatisierung
+
+**Infotainment / Multimedia:**  
+☐ Multimedia Cockpit interaktiv  
+☐ Radio / Bluetooth  
+☐ Navigationssystem
+
+**Komfortausstattung:**  
+Sonnenblende: ☐ Ja ☐ Nein  
+Getränkehalter: ☐ Ja ☐ Nein  
+Ablagefächer: ___
+
+**Beleuchtung:**  
+Arbeitsscheinwerfer: ☐ Ja ☐ Nein  
+Rundumkennleuchten: ☐ Vorn ☐ Hinten
+
+---
+
+### Elektrik / Bordnetz
+
+**Batterie:**  
+Kapazität: ___ Ah  
+Spannung: ___ V  
+Typ: ___ (Blei / AGM / Lithium)
+
+**Generator / Lichtmaschine:**  
+___
+
+**Zusatzausstattung:**  
+Ladesteckdose extern: ☐ Ja ☐ Nein  
+Wechselrichter: ☐ Ja ☐ Nein
+
+---
 
 ### ADR-Zertifizierung
-- ADR-Klasse: ___
-- ADR-Gültigkeit: ___
-- Explosionsschutz: ☐ Ja ☐ Nein
+
+**ADR-Klasse:**  
+___
+
+**ADR-Typ:**  
+___ (z.B. AT/FL L4BH, FL)
+
+**ADR-Gültigkeit / Prüfstatus:**  
+___
+
+**ADR Ausstattungspaket:**  
+☐ Ja ☐ Nein
+
+**Explosionsschutz:**  
+☐ Ja ☐ Nein
+
+**Geschwindigkeitsbegrenzeranlage:**  
+☐ Ja ☐ Nein  
+Limit: ___ km/h
+
+**Hinweise / Besonderheiten:**  
+___
+
+---
+
+### Abmessungen
+
+**Länge:**  
+___ mm
+
+**Breite:**  
+___ mm
+
+**Höhe:**  
+___ mm
+
+**Radstand:**  
+___ mm
+
+---
+
+### Sonderausstattung / Zubehör
+
+**Aufbau-seitige Ausstattung:**  
+☐ Handwascheinrichtung (warm / kalt, Volumen: ___ l)  
+☐ Edelstahl-Werkzeugkasten  
+☐ Geräteschrank (Position: ___)  
+☐ Schlauchablage  
+☐ Seilzugrolle  
+☐ Mülltonne  
+☐ Diverse Halterungen
+
+**Sonstiges:**  
+___
+
+**Hinweis:**  
+Dieser Block dient nur für Ausstattungspunkte, die sich keiner
+Hauptkategorie zuordnen lassen. Ziel ist, diesen Block gegen Null
+zu reduzieren, indem neue Kategorien hinzugefügt werden.
 
 ---
 
@@ -145,7 +465,7 @@ und Grundlage für technische Plausibilisierung,
 Exposé-Erstellung und spätere Automatisierung.
 
 **Bildquelle:**  
-☐ Inserat (mobile.de / kanalreiniger.eu / etc.)  
+☐ Inserat  
 ☐ Anbieter separat  
 ☐ intern ergänzt  
 
@@ -179,7 +499,7 @@ ___
 **Gesetzliche Prüfungen:**
 - HU / AU (gemäß nationaler Regelung): ___
 - UVV-Prüfung: ___
-- ADR-Zulassung (falls relevant): ___
+- ADR-Zulassung: ___
 
 **Service-, Wartungs- oder Revisionsnachweise:**  
 ☐ Vorhanden (vollständig)  
@@ -238,7 +558,7 @@ ___
 ___ (z.B. Verschleiß bestimmter Komponenten, bekannte Schwachstellen)
 
 **Regulatorische Besonderheiten:**  
-___ (z.B. ADR-Zertifizierung erforderlich, Importrestriktionen)
+___ (z.B. ADR-Zertifizierung erforderlich, Importrestriktionen, Umweltzonen)
 
 **Einsatzrelevante Einschränkungen:**  
 ___ (z.B. nur für bestimmte Medien geeignet, Temperaturbeschränkungen)
@@ -264,6 +584,11 @@ ___
 ☐ Gutachten vorhanden  
 ☐ Mix aus mehreren Quellen  
 
+**Validierungsstatus:**  
+☐ Technisch plausibel (nicht geprüft)  
+☐ Technisch geprüft  
+☐ Vollständig validiert
+
 **Vollständigkeit Intake:**  
 ☐ Vollständig (alle Pflichtfelder ausgefüllt)  
 ☐ Teilweise (wesentliche Felder fehlen noch)  
@@ -283,11 +608,14 @@ ___
 Automatisch generiert durch Galileo Asset Category Detector.  
 Basis: 15 erkannte Assets von kanalreiniger.eu.
 
-**Nächste Version (v0.2):**  
-- Review technische Struktur (A4-Modul)  
-- Anpassung Pflichtfelder nach Praxis-Feedback  
-- Bildanforderungen finalisieren  
+**v0.2 (MASTER in Entwicklung)** – 2026-02-28  
+Erweitert um detaillierte Struktur basierend auf H2T-ASSET-2026-001.  
+Neue Kategorien: Anhänger- & Fahrassistenzsysteme, Fahrerhaus & Komfort,  
+Elektrik/Bordnetz, Abmessungen.  
+Trägerfahrzeug erweitert um Achsen, Fahrwerk, Bremsen, Sicherheit, PTO.
 
-**Ziel-Version (v1.0 MASTER):**  
-- Freigabe nach vollständiger Validierung  
-- Status: DRAFT → MASTER  
+**Nächste Schritte:**  
+- Generator anpassen: Ausstattungspunkte regelbasiert zuordnen  
+- Required-fields.json erweitern  
+- Block "Unzugeordnet (Review)" implementieren  
+- Test auf H2T-ASSET-2026-011
