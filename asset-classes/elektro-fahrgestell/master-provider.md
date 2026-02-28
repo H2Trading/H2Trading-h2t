@@ -1,17 +1,19 @@
-# DOC-10-00-A – Master Anbieterbestätigung
+# DOC-10-00-A – Master Anbieterbestätigung (SUGGESTED)
 Assetklasse: Elektro-Fahrgestell
 
-**Status:** DRAFT (auto-created)  
-**Basis:** asset-classes/_base/master-provider.md  
-**Letzte Änderung:** 2026-02-28
+**Status:** SUGGESTED (aus Datenpool abgeleitet)  
+**Letzte Änderung:** 2026-02-28  
+**Base:** ../_base/master-provider.md
 
 ---
 
 ## Hinweis
 
-Dieses Klassen-Template ist neu angelegt.
-Klassen-spezifische Frage-/Prüfblöcke bitte ergänzen.
+Die Pflichtfragen (A4b) sollen aus `required-fields.v2.json` (required_hard) generiert werden.
+Dieser Vorschlag listet zusätzlich Klassen-spezifische Module, die häufig auftreten.
 
-**Base-Template:** ../_base/master-provider.md
+---
 
-**Required Fields Proposal:** required-fields.derived-75pct.json
+## Klassen-spezifische Zusatzmodule (falls sinnvoll)
+
+- `sonderoptionen` (100% / 1/1)

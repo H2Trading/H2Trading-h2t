@@ -1,5 +1,5 @@
 # DOC-10-00-A – Master Anbieterbestätigung (SUGGESTED)
-Assetklasse: ADR-Sauger
+Assetklasse: TV-Kanalinspektionsfahrzeug
 
 **Status:** SUGGESTED (aus Datenpool abgeleitet)  
 **Letzte Änderung:** 2026-02-28  
@@ -16,5 +16,4 @@ Dieser Vorschlag listet zusätzlich Klassen-spezifische Module, die häufig auft
 
 ## Klassen-spezifische Zusatzmodule (falls sinnvoll)
 
-- `fahrerhaus_komfort` (100% / 9/9)
-- `abmessungen` (56% / 5/9)
+- `fahrerhaus_komfort` (100% / 1/1)

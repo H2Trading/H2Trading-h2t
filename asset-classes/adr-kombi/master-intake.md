@@ -619,3 +619,13 @@ Trägerfahrzeug erweitert um Achsen, Fahrwerk, Bremsen, Sicherheit, PTO.
 - Required-fields.json erweitern  
 - Block "Unzugeordnet (Review)" implementieren  
 - Test auf H2T-ASSET-2026-011
+
+
+---
+
+## Datenpool-Ableitung (SUGGESTED)
+
+Zusätzliche, automatisch abgeleitete Strukturvorschläge (Review-Artefakt):
+- ./master-intake.suggested.md
+
+Hinweis: Dieses Master-Template bleibt die SSOT. Die suggested Datei dient nur zur Erweiterung/Review.

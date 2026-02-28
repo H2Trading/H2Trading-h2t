@@ -45,3 +45,13 @@ ____________________________________________________________________
 Ort / Datum: _______________________________
 Unternehmen / Name: _______________________
 Unterschrift / Stempel: _____________________
+
+
+---
+
+## Datenpool-Ableitung (SUGGESTED)
+
+Zusätzliche, automatisch abgeleitete Strukturvorschläge (Review-Artefakt):
+- ./master-provider.suggested.md
+
+Hinweis: Dieses Master-Template bleibt die SSOT. Die suggested Datei dient nur zur Erweiterung/Review.
