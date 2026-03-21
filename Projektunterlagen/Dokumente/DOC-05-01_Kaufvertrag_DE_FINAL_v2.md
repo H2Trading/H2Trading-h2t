@@ -13,8 +13,11 @@ Name / Firma: _______________________________
 Adresse: ____________________________________
 
 Vermittler (keine Vertragspartei):
-Name / Firma: _______________________________
-Adresse: ____________________________________
+Name / Firma: H2 Trading GmbH
+Adresse: Bachgasse 7-9/1B, 2120 Wolkersdorf
+Geschäftsführung: Elias Hang, Mag. Stephan Hemberger
+IBAN: AT23 3295 1000 0012 0238 / BIC: RLNWATWWWDF
+E-Mail: office@h2trading.at
 
 ---
 
@@ -30,7 +33,7 @@ Baujahr: ___________________________________
 Fahrgestellnummer (VIN): ____________________  
 Kilometerstand / Betriebsstunden: ___________
 
-Der Käufer bestätigt, das Fahrzeug besichtigt zu haben und – soweit technisch und organisatorisch möglich – probegefahren zu haben.
+Der Käufer bestätigt, das Fahrzeug besichtigt zu haben und ausreichend Gelegenheit zur eigenen Prüfung gehabt zu haben. Soweit technisch und organisatorisch möglich, hat der Käufer das Fahrzeug probegefahren. Der Käufer erklärt, das Fahrzeug auf Grundlage dieser eigenen Prüfung zu erwerben.
 
 ---
 
@@ -38,7 +41,7 @@ Der Käufer bestätigt, das Fahrzeug besichtigt zu haben und – soweit technisc
 
 1. Der Kaufgegenstand wird im bestehenden Zustand **zum Zeitpunkt der Übergabe** verkauft.
 
-2. Der Käufer erwirbt das Fahrzeug als Unternehmer im Zustand „wie besichtigt und übernommen“ und trägt das mit Alter, Laufleistung, Nutzung und dem allgemeinen Abnutzungszustand eines gebrauchten Fahrzeugs verbundene Risiko.
+2. Der Käufer erwirbt das Fahrzeug als Unternehmer im Zustand „wie besichtigt und übernommen" und trägt das mit Alter, Laufleistung, Nutzung und dem allgemeinen Abnutzungszustand eines gebrauchten Fahrzeugs verbundene Risiko.
 
 3. Sofern dem Käufer Zustandsbeschreibungen, Prüfberichte oder sonstige Unterlagen übergeben werden, dienen diese ausschließlich der Information über den Zustand zum Zeitpunkt der Erstellung.  
    Eine Garantie, Beschaffenheitsvereinbarung oder Funktionszusage ist damit nicht verbunden.
@@ -64,30 +67,26 @@ Der Käufer bestätigt, das Fahrzeug besichtigt zu haben und – soweit technisc
 
 Der Vermittler ist nicht Treuhänder und nimmt keine Zahlungen im eigenen Namen entgegen.
 
-1. **Abmeldung des Fahrzeugs**  
-   Der Verkäufer verpflichtet sich, das Fahrzeug ordnungsgemäß abzumelden.  
-   Die Abmeldebestätigung wird dem Käufer (bzw. dem Vermittler zur Weiterleitung) in Textform (z. B. per E-Mail oder PDF) übermittelt.  
+1. **Schritt 1 – Abmeldung des Fahrzeugs**  
+   Der Verkäufer verpflichtet sich, das Fahrzeug ordnungsgemäß abzumelden und die Abmeldebestätigung dem Käufer (bzw. dem Vermittler zur Weiterleitung) in Textform (z. B. per E-Mail oder PDF) zu übermitteln.  
    Die Abmeldung stellt keine Übergabe des Kaufgegenstands dar und begründet weder einen Besitz- noch einen Gefahrübergang.
 
-2. **Erste Teilzahlung (Anzahlung) – 50 %**  
-   Nach Übermittlung der Abmeldebestätigung zahlt der Käufer 50 % des Kaufpreises unverzüglich auf folgendes Konto des Verkäufers:
+2. **Schritt 2 – Zahlung des Kaufpreises (100 %)**  
+   Nach Übermittlung der Abmeldebestätigung zahlt der Käufer den **gesamten Kaufpreis (100 %)** unverzüglich auf folgendes Konto des Verkäufers:
 
    Kontoinhaber: __________________________  
    IBAN: _________________________________  
    BIC: __________________________________  
    Bank: _________________________________
 
-3. **Terminvereinbarung zur Abholung**  
-   Nach Bestätigung des Zahlungseingangs wird über den Vermittler ein Abholtermin für das Fahrzeug vereinbart.
+3. **Schritt 3 – Terminvereinbarung und Dokumentenübergabe**  
+   Nach Bestätigung des vollständigen Zahlungseingangs wird über den Vermittler ein Abholtermin für das Fahrzeug vereinbart. Die Übergabe sämtlicher Fahrzeugdokumente erfolgt gleichzeitig mit der Fahrzeugübergabe am vereinbarten Abholtermin.
 
-4. **Restzahlung – 50 %**  
-   Die restlichen 50 % des Kaufpreises sind spätestens 24 Stunden vor dem vereinbarten Abholtermin auf das bekannt gegebene Konto zu überweisen.
+4. **Schritt 4 – Übergabe des Fahrzeugs**  
+   Die Übergabe des Fahrzeugs erfolgt nach vollständigem Zahlungseingang am vereinbarten Abholtermin.
 
-5. **Übergabe des Fahrzeugs**  
-   Die Übergabe erfolgt nach vollständigem Zahlungseingang.
-
-6. Erfolgt die Restzahlung nicht fristgerecht oder erscheint der Käufer nicht zum vereinbarten Abholtermin, ist der Verkäufer berechtigt, vom Vertrag zurückzutreten.  
-   In diesem Fall ist der Verkäufer berechtigt, die bereits geleistete Anzahlung als pauschalierten Schadenersatz einzubehalten, **soweit dieser Betrag dem typischerweise zu erwartenden Schaden entspricht**.  
+5. Erscheint der Käufer nicht zum vereinbarten Abholtermin oder widerruft er seine Zahlungsanweisung nach erfolgtem Zahlungseingang, ist der Verkäufer berechtigt, vom Vertrag zurückzutreten.  
+   In diesem Fall ist der Verkäufer berechtigt, die geleistete Zahlung als pauschalierten Schadenersatz einzubehalten, **soweit dieser Betrag dem typischerweise zu erwartenden Schaden entspricht**.  
    Dem Käufer bleibt der Nachweis gestattet, dass kein oder ein wesentlich geringerer Schaden entstanden ist.
 
 ---
@@ -109,20 +108,15 @@ Die Gefahr geht mit Übergabe oder – sofern vereinbart – mit der Verladung d
 
 ---
 
-## § 7 Besichtigung
-
-Der Käufer bestätigt, den Kaufgegenstand besichtigt zu haben und ausreichend Gelegenheit zur eigenen Prüfung gehabt zu haben.
-
----
-
-## § 8 Schlussbestimmungen
+## § 7 Schlussbestimmungen
 
 1. Änderungen und Ergänzungen dieses Vertrags bedürfen zu ihrer Wirksamkeit der Schriftform.
 
 2. Sollten einzelne Bestimmungen dieses Vertrags ganz oder teilweise unwirksam oder undurchführbar sein oder werden, berührt dies die Wirksamkeit der übrigen Bestimmungen nicht.
 
 3. Dieser Vertrag unterliegt dem materiellen Recht des Staates, in dem der Verkäufer seinen Sitz hat, unter Ausschluss seiner Kollisionsnormen sowie des Übereinkommens der Vereinten Nationen über Verträge über den internationalen Warenkauf (CISG).  
-   Gerichtsstand ist – soweit gesetzlich zulässig – der Sitz des Verkäufers.
+   Gerichtsstand ist – soweit gesetzlich zulässig – der Sitz des Verkäufers.  
+   Soweit H2 Trading GmbH als Vermittler an der Abwicklung beteiligt ist, gilt als Gerichtsstand Wien.
 
 ---
 
