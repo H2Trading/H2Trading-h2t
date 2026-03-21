@@ -1,0 +1,6 @@
+{
+  "version": "0.1",
+  "scope": "base",
+  "note": "Base required fields placeholder. Define universal required fields (A1/A2/A3 + universal A4 modules) here once schema is finalized.",
+  "required": []
+}

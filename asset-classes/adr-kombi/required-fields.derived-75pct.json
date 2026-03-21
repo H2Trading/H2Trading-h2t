@@ -1,0 +1,41 @@
+{
+  "schema": "h2t.required-fields.derived.v1",
+  "derivedAt": "2026-02-28T20:44:46.397Z",
+  "derivedFrom": "asset-data-final.json pool",
+  "category": "ADR-Kombi",
+  "slug": "adr-kombi",
+  "threshold": 0.75,
+  "assetCount": 16,
+  "rules": {
+    "hardCanBeNA": true,
+    "naValues": [
+      "N/A",
+      "nicht relevant",
+      "nicht vorhanden"
+    ],
+    "note": "Derived candidates from data pool. Review before promoting to required-fields.json used by generators."
+  },
+  "required_hard": [
+    {
+      "path": "traegerfahrzeug.achsen.konfiguration",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.hersteller",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.modell",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "aufbau_tank_wasserrecycling.hersteller",
+      "minPresence": 0.875,
+      "allow_na": true
+    }
+  ],
+  "required_soft": []
+}

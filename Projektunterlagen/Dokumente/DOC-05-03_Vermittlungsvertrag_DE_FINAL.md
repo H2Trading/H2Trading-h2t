@@ -9,8 +9,12 @@
 
 **Vermittler:**  
 H2 Trading GmbH  
-[Adresse]  
-[UID / Firmenbuchnummer]
+Bachgasse 7-9/1B, 2120 Wolkersdorf  
+Geschäftsführung: Elias Hang, Mag. Stephan Hemberger  
+IBAN: AT23 3295 1000 0012 0238 / BIC: RLNWATWWWDF  
+E-Mail: office@h2trading.at  
+UID: [bitte ergänzen]  
+FN: [bitte ergänzen]
 
 ---
 
@@ -79,7 +83,7 @@ H2 Trading GmbH
 
 (2) Der Anspruch auf Provision entsteht, sobald:
 - ein rechtswirksamer Kaufvertrag zwischen Verkäufer und Käufer abgeschlossen wurde und
-- mindestens 50 % des Kaufpreises tatsächlich beim Verkäufer eingelangt sind.
+- der Kaufpreis **vollständig (100 %)** tatsächlich beim Verkäufer eingelangt ist.
 
 (3) Die Provision ist innerhalb von **10 Tagen** ab Rechnungsdatum ohne Abzug zur Zahlung fällig.
 

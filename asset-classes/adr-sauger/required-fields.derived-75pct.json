@@ -1,0 +1,41 @@
+{
+  "schema": "h2t.required-fields.derived.v1",
+  "derivedAt": "2026-02-28T20:44:46.398Z",
+  "derivedFrom": "asset-data-final.json pool",
+  "category": "ADR-Sauger",
+  "slug": "adr-sauger",
+  "threshold": 0.75,
+  "assetCount": 9,
+  "rules": {
+    "hardCanBeNA": true,
+    "naValues": [
+      "N/A",
+      "nicht relevant",
+      "nicht vorhanden"
+    ],
+    "note": "Derived candidates from data pool. Review before promoting to required-fields.json used by generators."
+  },
+  "required_hard": [
+    {
+      "path": "aufbau_tank_wasserrecycling.hersteller",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.hersteller",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.modell",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.achsen.konfiguration",
+      "minPresence": 0.8888888888888888,
+      "allow_na": true
+    }
+  ],
+  "required_soft": []
+}

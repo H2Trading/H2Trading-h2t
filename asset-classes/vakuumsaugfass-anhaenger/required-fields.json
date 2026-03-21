@@ -1,0 +1,37 @@
+{
+  "schema": "h2t.required-fields.v2",
+  "version": "v0.2",
+  "class": "vakuumsaugfass-anhaenger",
+  "category": "Vakuumsaugfass-Anhänger",
+  "derivedAt": "2026-02-28T20:44:46.401Z",
+  "threshold": 0.75,
+  "assetCount": 5,
+  "rules": {
+    "hardCanBeNA": true,
+    "naValues": [
+      "N/A",
+      "nicht relevant",
+      "nicht vorhanden"
+    ],
+    "note": "Promoted from derived-75pct proposal. Review and refine questions/units before using in DOC generators."
+  },
+  "required_hard": [
+    {
+      "path": "aufbau_tank_wasserrecycling.tank.werkstoff",
+      "minPresence": 0.8,
+      "allow_na": true,
+      "unit": null,
+      "label": "Tank Werkstoff",
+      "question": "Bitte Angabe ergänzen/bestätigen: Tank Werkstoff. (Falls nicht relevant/nicht vorhanden: N/A)"
+    },
+    {
+      "path": "traegerfahrzeug.fahrwerk.kotfluegel",
+      "minPresence": 0.8,
+      "allow_na": true,
+      "unit": null,
+      "label": "Fahrwerk Kotfluegel",
+      "question": "Bitte Angabe ergänzen/bestätigen: Fahrwerk Kotfluegel. (Falls nicht relevant/nicht vorhanden: N/A)"
+    }
+  ],
+  "required_soft": []
+}

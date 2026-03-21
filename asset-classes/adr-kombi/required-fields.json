@@ -1,0 +1,84 @@
+{
+  "class": "adr-kombi",
+  "version": "v0.1",
+  "source": "asset-classes/adr-kombi/master-intake.md#A4",
+  "requiredFields": [
+    {
+      "key": "traegerfahrzeug.manufacturer_model",
+      "label": "Trägerfahrzeug: Hersteller / Modell",
+      "path": "specs.traegerfahrzeug.manufacturer+specs.traegerfahrzeug.model",
+      "unit": null,
+      "question": "Bitte Hersteller und Modell des Trägerfahrzeugs angeben (z.B. Mercedes-Benz Arocs 2848)."
+    },
+    {
+      "key": "traegerfahrzeug.motor",
+      "label": "Motor: Leistung kW/PS + Euro-Norm",
+      "path": "specs.traegerfahrzeug.motor_power_kw+specs.traegerfahrzeug.motor_power_ps+specs.traegerfahrzeug.emission_standard",
+      "unit": "kW/PS/Euro",
+      "question": "Bitte Motorleistung (kW und PS) sowie Abgasnorm (Euro-Norm) angeben."
+    },
+    {
+      "key": "traegerfahrzeug.transmission",
+      "label": "Getriebe",
+      "path": "specs.traegerfahrzeug.transmission",
+      "unit": null,
+      "question": "Bitte Getriebe (manuell/automatisch, Gänge) angeben."
+    },
+    {
+      "key": "weights.achskonfiguration",
+      "label": "Achskonfiguration",
+      "path": "specs.weights.achskonfiguration",
+      "unit": null,
+      "question": "Bitte Achskonfiguration angeben (z.B. 6x2, 8x4)."
+    },
+    {
+      "key": "weights.zgg",
+      "label": "zGG",
+      "path": "specs.weights.zgg",
+      "unit": "kg",
+      "question": "Bitte zulässiges Gesamtgewicht (zGG) in kg angeben."
+    },
+    {
+      "key": "tank.waste_water",
+      "label": "Schmutzwassertank",
+      "path": "specs.tank.waste_water",
+      "unit": "L",
+      "question": "Bitte Volumen Schmutzwassertank in Litern angeben."
+    },
+    {
+      "key": "tank.fresh_water",
+      "label": "Frischwassertank",
+      "path": "specs.tank.fresh_water",
+      "unit": "L",
+      "question": "Bitte Volumen Frischwassertank in Litern angeben."
+    },
+    {
+      "key": "tank.material",
+      "label": "Tank-Material",
+      "path": "specs.tank.material",
+      "unit": null,
+      "question": "Bitte Tankmaterial angeben (Stahl/Edelstahl/Kunststoff)."
+    },
+    {
+      "key": "vacuum.pump_capacity",
+      "label": "Sauganlage: Pumpe + Saugleistung + Vakuum",
+      "path": "specs.vacuum_system.pump+specs.vacuum_system.capacity_m3_h+specs.vacuum_system.vacuum_mbar",
+      "unit": "m³/h,mbar",
+      "question": "Bitte Sauganlage angeben: Pumpentyp/Hersteller sowie Saugleistung (m³/h) und Vakuum (mbar)."
+    },
+    {
+      "key": "highpressure.pump_perf",
+      "label": "Hochdruckanlage: Pumpe + Druck + Durchfluss",
+      "path": "specs.high_pressure.pump+specs.high_pressure.pressure_bar+specs.high_pressure.flow_l_min",
+      "unit": "bar,l/min",
+      "question": "Bitte Hochdruckanlage angeben: Pumpentyp/Hersteller sowie max. Druck (bar) und Durchfluss (l/min)."
+    },
+    {
+      "key": "adr.class_validity",
+      "label": "ADR: Klasse + Gültigkeit",
+      "path": "specs.adr.classes+specs.adr.notes",
+      "unit": null,
+      "question": "Bitte ADR-Klasse(n) und Gültigkeit/Prüfstatus angeben (falls vorhanden)."
+    }
+  ]
+}

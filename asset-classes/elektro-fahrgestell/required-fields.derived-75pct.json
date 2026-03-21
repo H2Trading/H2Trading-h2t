@@ -1,0 +1,101 @@
+{
+  "schema": "h2t.required-fields.derived.v1",
+  "derivedAt": "2026-02-28T20:44:46.399Z",
+  "derivedFrom": "asset-data-final.json pool",
+  "category": "Elektro-Fahrgestell",
+  "slug": "elektro-fahrgestell",
+  "threshold": 0.75,
+  "assetCount": 1,
+  "rules": {
+    "hardCanBeNA": true,
+    "naValues": [
+      "N/A",
+      "nicht relevant",
+      "nicht vorhanden"
+    ],
+    "note": "Derived candidates from data pool. Review before promoting to required-fields.json used by generators."
+  },
+  "required_hard": [
+    {
+      "path": "abmessungen_gewichte.zulaessiges_gesamtgewicht_kg",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "elektrik_bordnetz.batterie_spannung_v",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.achskonfiguration.typ",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.energiequelle",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.leistung_kw",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.leistung_ps",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.max_drehmoment_nm",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.motortyp",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.nennspannung_v",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.antrieb.spitzenleistung_kw",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.fahrwerk.bereifung_hinterachse",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.fahrwerk.bereifung_vorderachse",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.federung.hinterachse",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.federung.vorderachse",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.hersteller",
+      "minPresence": 1,
+      "allow_na": true
+    },
+    {
+      "path": "traegerfahrzeug.modell",
+      "minPresence": 1,
+      "allow_na": true
+    }
+  ],
+  "required_soft": []
+}
