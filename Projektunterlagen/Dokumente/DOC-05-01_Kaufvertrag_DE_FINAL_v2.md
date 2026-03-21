@@ -18,6 +18,8 @@ Adresse: Bachgasse 7-9/1B, 2120 Wolkersdorf
 Geschäftsführung: Elias Hang, Mag. Stephan Hemberger
 IBAN: AT23 3295 1000 0012 0238 / BIC: RLNWATWWWDF
 E-Mail: office@h2trading.at
+UID: [bitte ergänzen]
+FN: [bitte ergänzen]
 
 ---
 
